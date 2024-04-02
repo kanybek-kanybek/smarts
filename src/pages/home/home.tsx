@@ -12,8 +12,8 @@ function Home() {
       <HomeReview />
       <New />
       <HomeAdvertising />
+      {/* <New /> */}
       {/* <HomeReview /> */}
-      fhewo
     </>
   );
 }
