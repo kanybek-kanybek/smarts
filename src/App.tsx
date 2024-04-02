@@ -7,33 +7,33 @@ import GroupProduct from "./pages/groupProduct/GroupProduct";
 import Review from "./pages/review/review";
 
 const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Home />,
-    },
-    {
-        path: "/detal/product",
-        element: <DetalProduct />,
-    },
-    {
-        path: "/group/product",
-        element: <GroupProduct />,
-    },
-    {
-        path: "/review",
-        element: <Review />,
-    },
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/detal/product",
+    element: <DetalProduct />,
+  },
+  {
+    path: "/group/product",
+    element: <GroupProduct />,
+  },
+  {
+    path: "/review",
+    element: <Review />,
+  },
 ]);
 function App() {
-    return (
-        <>
-            <Header />
-            <main>
-                <RouterProvider router={router} />
-            </main>
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <main>
+        <RouterProvider router={router} />
+      </main>
+      <Footer />
+    </>
+  );
 }
 
 export default App;
