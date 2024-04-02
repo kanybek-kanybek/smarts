@@ -4,7 +4,7 @@ import Header from "./components/header/header";
 import DetalProduct from "./pages/DetalProduct/DetalProduct";
 import GroupProduct from "./pages/groupProduct/GroupProduct";
 import Review from "./pages/review/review";
-import Footer from "./components/footer/footer";
+import Footer from "../src/footer/footer";
 
 const router = createBrowserRouter([
   {
