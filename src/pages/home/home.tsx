@@ -3,12 +3,14 @@ import React from "react";
 // import New from "./New";
 // import Hero from "../../components/hero/hero";
 import HomeReview from "./homeReview";
-import New from '../../../src/'
+import HomeAdvertising from "../../../src/components/homeVenera/homeAdvertising";
+import New from "../../components/homeVenera/New";
 function Home() {
   return (
     <>
       <HomeReview />
       <New />
+      <HomeAdvertising />
       {/* <HomeReview /> */}
       fhewo
     </>

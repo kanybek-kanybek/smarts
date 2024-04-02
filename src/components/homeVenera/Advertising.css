@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  max-width: 1108px;
+  margin: 0 auto;
+}
+.advertising_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.block {
+  display: flex;
+  gap: 34px;
+}
+
+.box_content {
+  color: red;
+}
+.volutpat_content {
+  color: red;
+}
+.aliquet_content {
+  color: red;
+}
+.velit_content {
+  color: red;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 34px; 
+}
+.To new {
+  display: flex;
+}
+.New_content-title {
+}
