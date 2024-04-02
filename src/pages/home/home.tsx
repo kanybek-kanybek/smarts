@@ -1,7 +1,14 @@
 import React from "react";
+import HomeReview from "./homeReview";
 
 function Home() {
-    return <div></div>;
+  return (
+    <section>
+      <div className="container">
+        <HomeReview />
+      </div>
+    </section>
+  );
 }
 
 export default Home;
