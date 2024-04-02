@@ -31,12 +31,13 @@ function Header() {
                             <div className="header__content__btns">
                                 <button className="header__content__btns-like">
                                     {/* <ion-icon name="heart-outline"></ion-icon> */}
+                                    like
                                 </button>
                                 <button className="header__content__btns-compare">
-                                    compare
+                                    com
                                 </button>
                                 <button className="header__content__btns-sign">
-                                    sign up
+                                    sign
                                 </button>
                             </div>
                         </div>
