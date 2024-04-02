@@ -5,9 +5,7 @@ function Hero() {
         <>
             <div className="hero">
                 <div className="container">
-                    <div className="hero__content">
-                        <h1>Hero</h1>
-                    </div>
+                    <div className="hero__content"></div>
                 </div>
             </div>
         </>
